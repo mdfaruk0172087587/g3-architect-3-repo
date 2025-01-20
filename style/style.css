@@ -53,9 +53,6 @@
 .mar-1{
     margin-bottom: 30px;
 }
-.mar-2{
-
-}
 .banner-title{
     font-weight: bold;
     font-size: 4rem;
@@ -94,23 +91,77 @@ main{
     max-width: 535px;
    margin-top: 287px;
 }
-
+/* love style */
+.love{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 130px;
+}
+.containts-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+}
+.containts-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+    width: 510px;
+}
+.love-containt{
+    margin-top: 170px;
+}
+.love-image{
+    margin-top: 130px;
+}
+.love-containts{
+    width: 586px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.love-btn{
+    padding: 45px 42px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-top: -120px;
+    margin-left: -92px;
+}
+.btn-title{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.btn-description{
+    font-size: 1.56rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 0;
+}
 
 
 
 
 
 @media screen and (max-width:576px) {
-    .navbar, .nav-ul{
+    .navbar, .nav-ul, .love{
         flex-direction: column;
     }
-    .banner-image >img, .teim >img{
+    .banner-image >img, .teim >img, .love-image >img{
         width: 100%;
+    }
+    .containts-discription, .love-containts{
+        width: 85%;
     }
     .features{
         flex-direction: column-reverse;
     }
     .teim{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .love-btn{
+        margin: 0px;
     }
 }
