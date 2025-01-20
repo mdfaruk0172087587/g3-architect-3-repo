@@ -169,6 +169,33 @@ main{
     text-align: center;
     border-radius: 8px;
 }
+/* sponspors style */
+.sponspor{
+    margin-top: 180px;
+}
+.faruk{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponspor-containt{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 155px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -178,7 +205,7 @@ main{
     .navbar, .nav-ul, .love{
         flex-direction: column;
     }
-    .banner-image >img, .teim >img, .love-image >img{
+    .banner-image >img, .teim >img, .love-image >img, .sponspor-containt{
         width: 100%;
     }
     .some-contants{
@@ -188,7 +215,7 @@ main{
     .containts-discription, .love-containts{
         width: 85%;
     }
-    .some-containt{
+    .some-containt, .sponspor-containt{
         grid-template-columns: repeat(2, 1fr);
         gap: 0;
     }
